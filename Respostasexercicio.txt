@@ -1,0 +1,27 @@
+1)
+        console.log(!10) // ? false
+        console.log(!!"String") // ? true
+        console.log(!!2.3) // ? true
+        console.log(Boolean(null)) // ? false
+
+2)
+        console.log(10 > 2) // ? true
+        console.log(5 >= "5") // ? true
+        console.log(5 >=== "5") // ? erro
+        console.log("apple" > "pineapple") // ? false
+        console.log("2" > "12") // ? false
+        console.log(undefined == null) // ? true
+        console.log(undefined === null) // ? false
+        console.log(null == "\n0\n") // ? false
+        console.log(null === +"\n0\n") // ? false
+
+3)
+        let a = 11
+        console.log(a > 10)
+        console.log("O valor de A é maior que 10")
+        let b = 9
+        console.log(b < 10)
+        console.log("O valor de A é menor que 10")
+
+4)
+        
