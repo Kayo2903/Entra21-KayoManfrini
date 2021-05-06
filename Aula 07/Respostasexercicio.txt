@@ -111,10 +111,10 @@
         let salario = Number(prompt("digite um número"))
         let prestacao = Number(prompt(digite sua prestação"))
         if (prestacao < (salário * 0.2)){
-                console.log("empréstimo concedido")
+        console.log("empréstimo concedido")
         }
-           else{
-                console.log("empréstimo não concedido")}
+        else{
+        console.log("empréstimo não concedido")}
 
 15) 
         let gol1 = Number(prompt("digite quantoos gols o time fez"))
@@ -256,4 +256,4 @@
     default:
         console.log("Valor Inválido!")
         }
-        
+
