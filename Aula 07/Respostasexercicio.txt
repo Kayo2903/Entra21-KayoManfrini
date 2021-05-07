@@ -7,7 +7,6 @@
 2)
         console.log(10 > 2) // ? true
         console.log(5 >= "5") // ? true
-        console.log(5 >=== "5") // ? erro
         console.log("apple" > "pineapple") // ? false
         console.log("2" > "12") // ? false
         console.log(undefined == null) // ? true
@@ -71,7 +70,7 @@
 9)
         let a = Number(prompt("Digite o primeiro valor"))
         let b = Number(prompt("Digite o segundo valor"))
-        a + b> 10? alert("Abaixo"): alert("Acima")
+        a + b> ? alert("Abaixo"): alert("Acima")
 
 10)
         let lado1 = Number(prompt("Digite a medida de um lado de um triangulo"))
@@ -98,67 +97,31 @@
         } else {alert("Não Divisivel")}
 
 13)
-        let numero = Number(prompt("digite um numero"))
-        if (numero >= 0){
-        console.log(`esse numero é: $(Math.sqrt(numero),toFixed(2)})`)
-        } else {
-        console.log(`o quadrado do numero é: ${numero**2}`)
-        }
-        if(numero.= 0) {console.log("o quadrado do numero de $"){numero} é: ${quadrado do numero.toFixed(2)}`)}
-        else {console.log("o numero é invalido")
+        
         
 14)
-        let salario = Number(prompt("digite um número"))
-        let prestacao = Number(prompt(digite sua prestação"))
-        if (prestacao < (salário * 0.2)){
-        console.log("empréstimo concedido")
-        }
-        else{
-        console.log("empréstimo não concedido")}
+       
 
 15) 
         let gol1 = Number(prompt("digite quantoos gols o time fez"))
         let gol2 = Number(prompt("digite quantoos gols o time fez"))
         if (gol1 > gol2){
         console.log("vitoria do time1")
-        } else[
+        } 
+        else if (gol1 < gol2) {
+        console.log("vitória da time2")     
+        }else { 
         console.log("empate")
         }
 16) 
-        let idade +Number(prompt("diga a sua idade"))
+        let idade = prompt("diga a sua idade")
         if ((idade >= 16 && idade < 18) || idade >= 70){
         console.log("nao pode votar")
         }else{
         console.log("obrigatório")
         }
 17) 
-        let numero1= Number(prompt("digite o numero 1"))
-        let numero2= Number(prompt("digite o numero 2"))
-        let numero3= Number(prompt("digite o numero 3"))
-        let maior
-        let meio
-        let menor
-        if(numero1<numero2 && numero1> numero3){
-        maior= numero1
-        }else if(numero2 > numero3){
-        maior= numer3
-        }
-        if(numero1<numero2 && numero1<numero3){
-        menor = numero1
-        }else {
-        else if (numero2<numero3){
-            menor = numero2
-        }else {
-            menor = numero3
-        }
-        if((numero1 > numero2 && numero1 <numero3>)|| (numero1 < numero && numero1 >numero3)){
-        meio = numero1
-        }else if ((numero2 > numero1 && numero2 < numero3 || numero1 < numero2 && numero1>numero3)){
-        meio = numero2
-        }else {
-        meio = numero3
-        }
-        console.log(maior, meio, menor)
+        
 
 18)
         let numero = Number(prompt("Digite um número"))
@@ -256,4 +219,3 @@
     default:
         console.log("Valor Inválido!")
         }
-
