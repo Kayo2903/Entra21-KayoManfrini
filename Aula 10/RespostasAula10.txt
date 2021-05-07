@@ -1,0 +1,40 @@
+1)
+        let i = 0
+        while (i < 11) {
+        console.log(i)
+        alert ("Olá Mundo")
+        i++
+        }
+
+        let i = 0
+        do {
+        console.log(i)
+        alert("Olá Mundo")
+        i++
+        } while (i < 11) 
+
+        for (let i = 0; i < 11; i++) {
+        alert("Olá Mundo")
+        console.log(i)
+        }
+
+2)
+        let i = 0
+        while (i < 11) {
+        console.log(i)
+        
+        i++
+        }
+
+3)
+
+    
+4)
+        for (let i = 0; i < 3; i++) {
+        let numero1 = +prompt("Digite o primeiro número")
+        let numero2 = +prompt("Digite o segundo número")
+
+        let subtracao = numero1 - numero2
+
+        console.log(`${numero1} - ${numero2} = ${subtracao}`)
+        }
