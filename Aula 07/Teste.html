@@ -7,10 +7,17 @@
 </head>
 <body>
     <script>
-        let numero = Number(prompt("Digite um número"))
-        let raizQuadrada = Math.sqrt(numero)
-        if(numero >= 0){console.log(`A raiz quadrada de ${numero} é: ${raizQuadrada.toFixed(2)}`)}
-        else {console.log("O número é inválido")}
+       let valor1 = Number(prompt("Digite o primeiro valor"))
+        let valor2 = Number(prompt("Digite o segundo valor"))
+        let valor3 = Number(prompt("Digite o terceiro valor"))
+        if(valor1> valor2 && valor1> valor3) {
+        alert(`$ {valor1} \ n $ {valor2} \ n $ {valor3} \ nO maior valor é o: \ n $ {valor1}`)        
+        }
+        else if (valor2> valor1 && valor2> valor3) {
+        alert(`$ {valor1} \ n $ {valor2} \ n $ {valor3 \ nO maior valor é o: \ n $ {valor2}`)
+        }
+        else if (valor3> valor1 && valor3> valor2)
+        alert(`$ {valor1} \ n $ {valor2} \ n $ {valor3} \ nO maior valor é o: \ n $ {valor3}`)
     </script>
 </body>
 </html>
