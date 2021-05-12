@@ -1,0 +1,40 @@
+1)
+        let vetor = [],
+            pares = 0
+        for (let i = 0; i < 10; i++) {
+            vetor[i] = +prompt(`digite o ${i + 1}° valor`)
+
+            if (vetor[i] % 2 === 0) pares++
+        }
+        console.log(`A quantidade de numeros pares digitados foi ${pares}`)
+
+2)
+        let vetor = [],
+           maiorNumero = 5
+        for (let i = 0; i < 5; i++) {
+            vetor[i] = +prompt(`digite o ${i + 1}° valor`)
+
+            if (vetor[i] % 0 === 0) maiorNumero++
+        }
+        console.log(`A posição que ele se encontra é: ${maiorNumero}`)
+
+3)
+         let vetor = [],
+            maiorElemento, 
+            menorElemento 
+            
+            for (let i = 0; i < 5; i++) {
+                vetor[i] = +prompt(`digite o ${i + 1}° valor`)
+
+                if (i === 0) {
+                    maiorElemento = vetor[i]
+                    menorElemento = vetor[i]
+                } else if (vetor[i] > maiorElemento) {
+                    maiorElemento = vetor[i]
+                } else if (vetor[i] < menorElemento) {
+                    menorElemento = vetor[i]
+                }
+            }
+           
+
+            console.log(`O maior elemento ${maiorElemento} O menor elemento ${menorElemento}`)

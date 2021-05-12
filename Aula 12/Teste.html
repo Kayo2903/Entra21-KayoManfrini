@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+            let vetor = [],
+            maiorElemento, 
+            menorElemento 
+            
+            for (let i = 0; i < 5; i++) {
+                vetor[i] = +prompt(`digite o ${i + 1}° valor`)
+
+                if (i === 0) {
+                    maiorElemento = vetor[i]
+                    menorElemento = vetor[i]
+                } else if (vetor[i] > maiorElemento) {
+                    maiorElemento = vetor[i]
+                } else if (vetor[i] < menorElemento) {
+                    menorElemento = vetor[i]
+                }
+            }
+           
+
+            console.log(`Mostrar o ${maiorElemento} em seguida o ${menorElemento}`)
+    </script>
+</body>
+</html>
+
+3) Faça um programa que receba do usuario um vetor com 5 posições. Em seguida, mostre
+o maior e o menor elemento do vetor.
