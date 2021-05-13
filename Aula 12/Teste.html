@@ -7,28 +7,18 @@
 </head>
 <body>
     <script>
-            let vetor = [],
-            maiorElemento, 
-            menorElemento 
+            let vetor = [i]
             
             for (let i = 0; i < 5; i++) {
-                vetor[i] = +prompt(`digite o ${i + 1}° valor`)
-
-                if (i === 0) {
-                    maiorElemento = vetor[i]
-                    menorElemento = vetor[i]
-                } else if (vetor[i] > maiorElemento) {
-                    maiorElemento = vetor[i]
-                } else if (vetor[i] < menorElemento) {
-                    menorElemento = vetor[i]
-                }
+                vetor[i] = +prompt(`digite o ${i}° valor`)
             }
-           
 
-            console.log(`Mostrar o ${maiorElemento} em seguida o ${menorElemento}`)
+            console.log(`aparecer ${vetor[i]}`)
+            
     </script>
 </body>
 </html>
 
-3) Faça um programa que receba do usuario um vetor com 5 posições. Em seguida, mostre
-o maior e o menor elemento do vetor.
+Ler um vetor de 5 elementos. Crie um segundo vetor, com todos os elementos na ordem 
+inversa, ou seja, o último elemento passará a ser o primeiro, o penúltimo será o segundo 
+e assim por diante. Mostre os dois vetores. 
