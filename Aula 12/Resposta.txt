@@ -10,7 +10,7 @@
 
 2)
         let vetor = [],
-           maiorNumero = 5
+           maiorNumero = 0
         for (let i = 0; i < 5; i++) {
             vetor[i] = +prompt(`digite o ${i + 1}° valor`)
 
