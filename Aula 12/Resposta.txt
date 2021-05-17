@@ -307,9 +307,8 @@
     }
 }
         
-
  17) 
-    https://www.devmedia.com.br/algoritmos-de-ordenacao-analise-e-comparacao/28261
+   
     let vetor = []
     for (let i = 0; i < 10; i++) {
         vetor[i] = Math.floor(Math.random() * (11 - 1)) + 1
