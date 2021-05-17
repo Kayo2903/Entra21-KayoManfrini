@@ -52,8 +52,12 @@
 
     for (let i = 0; i < 5; i++) {
         vetor[i] = +prompt(`Digite o ${i + 1} valor do vetor`)    
-        vetorInverso[4 - i] = vetor[i]            
-    }            
+                  
+    }  
+
+    for(let i = vetor.length; i >= 0; i--) {
+        vetorInverso(4 - i) = vetor[i]
+    }         
 
     console.log(`Vetor: ${vetor}\nVetor Invertido: ${vetorInverso}`)
 }
