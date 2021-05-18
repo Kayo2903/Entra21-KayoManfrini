@@ -8,7 +8,24 @@
 <body>
     <script>
             
-            
+            let vetor = [],
+        posicaoMaior = 0,
+        posicaoMenor = 0
+
+    for (let i = 0; i < 5; i++) {
+        vetor[i] = +prompt("Digite um número")
+        if (vetor[i] > vetor[posicaoMaior]) {
+            posicaoMaior = i
+        } else if (vetor[i] < vetor[posicaoMenor]) {
+            posicaoMenor = i
+        }
+    }
+
+    console.log(`Vetor: ${vetor}`)
+    console.log(`Posição do maior valor: ${posicaoMaior}`)
+    console.log(`Posição do menor valor: ${posicaoMenor}`)
+
+
     </script>
 </body>
 </html>

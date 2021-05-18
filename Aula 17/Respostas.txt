@@ -1,0 +1,58 @@
+1)
+    function ehpositivo(numero) {
+               return numero > 0
+           }
+
+2)
+    let numero1 = +prompt("Digite um número")
+    let numero2 = +prompt("Digite outro número")
+
+    function valores(numero1, numero2) {
+     if (numero1 > numero2) {
+                return numero2
+        } return numero1
+     }
+    
+    let menorNumero = valores(numero1, numero2)
+    console.log(`Resultado ${menorNumero}`)
+
+3)
+    let numero1 = +prompt("Digite um número")
+    let numero2 = +prompt("Digite outro número")
+
+    function valoresPotencias(numero1, numero2) {
+     if (numero1 ** numero2) {
+                return 
+        }
+    }
+    console.log(`Resultado ${numero1 ** numero2}`)
+
+4)
+    let notaa = +prompt("Digite uma nota")
+    let notab = +prompt("Digite outra nota")
+    let notac = +prompt("Digite outra nota")
+
+    function mediaNotas(notaa, notab, notac){
+
+        let media = (notaa + notab + notac) / 3
+        return media
+    }
+    let media = mediaNotas(notaa, notab, notac)
+    console.log(`Resultado ${media.toFixed(2)}`)
+   
+
+5)
+z   let media = +prompt("Digite uma média")
+    function conceitoMedia(media)
+    if (media < 5) {
+        return "d"
+    } else if(media < 7) {
+        return "c"
+    } else if(media < 9)
+        return "b"
+    }return "a"
+}
+    let conceito = conceitoMedia(media)
+    console.log(`conceito da sua média é ${conceito}`)
+
+6)
