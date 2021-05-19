@@ -56,3 +56,43 @@ z   let media = +prompt("Digite uma média")
     console.log(`conceito da sua média é ${conceito}`)
 
 6)
+    let altura = +prompt("Digite uma altura")
+        let sexo = prompt("Digite seu sexo, M para masculino, F para feminino")
+
+        function pesoIdeal(sexo, altura){
+            switch (sexo) {
+                case "M":
+                    let pesoIdealHomem = 72.7 * altura - 58
+                    return pesoIdealHomem
+
+                case "F":
+                    let pesoIdealMulher = 62.1 * altura - 44.7
+                    return pesoIdealMulher
+            }
+            }
+            
+            let peso = pesoIdeal(sexo, altura)
+            if (peso) {
+                console.log(`Seu peso ideal é ${peso}`)
+            } else {
+                console.log("Valores inválidos")
+            }
+
+7)
+    let vetor = []
+    function cadastroNumeroInteiro (){
+        for (let i = 0; i < 50; i++) {
+        let numero = Math.floor(Math.random() *1000)+1
+        vetor[i]=numero
+        }
+    }
+    function maiorMenorValor (){
+        let maior = Math.max.apply(null, vetor)
+        console.log(`O maior número da função é ${maior}`)
+        let menor = Math.min.apply(null, vetor)
+        console.log(`O menor número da função é ${menor}`)
+    }
+    cadastroNumeroInteiro()
+    maiorMenorValor()
+
+8)

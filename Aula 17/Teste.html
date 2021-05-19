@@ -8,8 +8,22 @@
 <body>
     <script>
         
+        let vetor = []
+    function cadastroNumeroInteiro (){
+        for (let i = 0; i < 50; i++) {
+        let numero = Math.floor(Math.random() *1000)+1
+        vetor[i]=numero
+        }
+    }
+    function maiorMenorValor (){
+        let maior = Math.max.apply(null, vetor)
+        console.log(`O maior número da função é ${maior}`)
+        let menor = Math.min.apply(null, vetor)
+        console.log(`O menor número da função é ${menor}`)
+    }
+    cadastroNumeroInteiro()
+    maiorMenorValor()
 
-        
     </script>
 </body>
 </html>
