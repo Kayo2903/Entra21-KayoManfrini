@@ -96,3 +96,53 @@ z   let media = +prompt("Digite uma média")
     maiorMenorValor()
 
 8)
+    let  idade  =  + prompt ( "digite sua idade (exemplo: 17 anos, 2 meses e 24 dias" )
+    function  dataDeNascimento ( dia ,  mes ,  ano ) {
+        retorno  365  *  ano  +  mes  *  30  +  dia
+    }
+        deixe  tempoDeVida  =  dataDeNascimento ( dia ,  mes ,  ano )
+        console . log  ( `Você tem $ { tempoDeVida } dias de vida` )
+
+
+9)
+     let primo +prompt("digite um numero"){
+    let i=0;
+    let p=1;
+
+    for(i=2;i<numero;i++){
+        if(numero%i==0){
+            p=0;
+        }
+    }
+    return p;
+}
+
+    let main()
+    let numero,resultado;
+    console.log("Digite um numero:");
+    let("%d",&numero);
+
+    resultado=primo(numero);
+
+
+    if(resultado == 1){
+        console.log("Numero primo.\n");
+    }
+    else{
+        console.log("Numero nao e primo.\n");
+    }
+
+    primo();
+    return 0;
+
+10)
+     let valor+prompt("Insira um valor para o qual deseja calcular seu fatorial: "){
+{
+let fatoral = n
+let("%d", &n);
+ 
+for(fatoral = 1; n > 1; n = n - 1)
+fat = fatoral * n;
+ 
+console.log(´("\nFatorial calculado: %d"), ${fatoral}`);
+return 0;
