@@ -9,19 +9,15 @@
     <script>
 
 
-        let soma = 0 
-        for (i = 0; i < 5; i++) {
-            let numeros = +prompt("Digite os valores")
+    function subtracao(numero1, numero2) {
+        console.log(`Numero1:${numero1}\nNumero2: ${numero2}`)
+    let resultado = numero1 - numero2
+        alert(resultado)
+}
 
-            soma += numeros
-            
-        }
-        let media = soma / 5
-        console.log(`A soma dos números é: ${soma} e a média é: ${media}`)
+
 
     </script>
 </body>
 </html>
 
-1) Faça um programa que peça ao usuario para digitar 5 valores. Ao final, mostre a soma desses
-            valores e média desses valores (arredondado para duas casas decimais).
