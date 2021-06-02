@@ -1,0 +1,10 @@
+1)
+    <h1>Algumas Marcas</h1>
+    <p><em>Esse parágrafo está em itálico!</em></p>
+    <p><ins>Esse parágrafo está sublinhado</ins></p>
+    <p><big>Ultilizando a marca big</big></small> e a marca small</small></p>
+    <p>Mais uma marca que permite o género x<sup>2</sup>e x<sub>2</sub></p>
+    <p>Exemplos de caracteres especiais:</p>
+
+2)
+    
