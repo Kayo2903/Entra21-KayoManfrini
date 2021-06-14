@@ -1,0 +1,19 @@
+#header {
+    padding: 4.5em 1.5em;
+    background-image: url(../img/monte.jpg);
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: auto, cover;
+    left: right;
+    position: relative;
+    text-align: center;
+    top: auto;
+    width: 100%;
+    display: block;
+    justify-content: space-between;
+    background-color: #1f1815;
+    color: rgba(255, 255, 255, 0.5);
+    height: 100%;
+}
+
+
