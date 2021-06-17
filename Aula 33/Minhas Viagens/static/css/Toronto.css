@@ -1,0 +1,7 @@
+div.Navegador {
+    color: black;
+    background-color: gray;
+    padding: 5px;
+    border: 6px solid rgb(161, 158, 158);
+    margin: 5px;   
+}

@@ -1,0 +1,47 @@
+div.Navegador {
+    color: black;
+    background-color: gray;
+    padding: 5px;
+    border: 6px solid rgb(161, 158, 158);
+    margin: 5px;   
+}
+
+
+div.LosAngeles {
+    border: 5px solid grey;
+    text-align: center;
+}
+
+div.Toronto {
+    border: 5px solid honeydew;
+    text-align: center;
+}
+
+div.Dubai {
+    border: 5px solid honeydew;
+    text-align: center;
+}
+
+div.LasVegas {
+    border: 5px solid honeydew;
+    text-align: center;
+}
+
+div.Orlando {
+    border: 5px solid honeydew;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+}
