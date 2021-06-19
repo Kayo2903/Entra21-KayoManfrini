@@ -1,14 +1,16 @@
 div.Navegador {
     color: black;
-    background-color: gray;
+    background-image: linear-gradient(to right,blue 20%, purple 50%);
     padding: 5px;
     border: 6px solid rgb(161, 158, 158);
-    margin: 5px;   
+    margin: 0px;   
 }
+
 
 div.LosAngeles {
     border: 5px solid grey;
     text-align: center;
+    grid-column: auto;
 }
 
 div.Toronto {
@@ -41,3 +43,47 @@ p {
     font-family:Arial, Helvetica, sans-serif;
     font-size: large;
 }
+
+button {
+    border-radius: 12px;
+  font-size: 50px;
+  font-weight: 300;
+  margin-bottom: 30px;
+  background-image: linear-gradient(to left,blue 20%, purple 50%);
+  font-size: 20px;
+  text-decoration: none;
+  border-bottom: 1px dotted;
+}
+
+a:link {
+    color: black;
+  }
+  
+  a:visited {
+    color: black;
+  }
+  a:hover {
+    color: white;
+  }
+  
+  a:active {
+    color: black;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  .column {
+    float: left;
+    padding: 10px;
+  }
+  
+  .column.side {
+    width: 25%;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-column-gap: 50px;
+  }
