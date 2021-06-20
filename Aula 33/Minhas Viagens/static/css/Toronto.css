@@ -1,89 +1,112 @@
 div.Navegador {
-    color: black;
-    background-image: linear-gradient(to right,blue 20%, purple 50%);
-    padding: 5px;
-    border: 6px solid rgb(161, 158, 158);
-    margin: 0px;   
+  color: black;
+  background-image: linear-gradient(to right,blue 20%, purple 50%);
+  padding: 5px;
+  border: 6px solid grey;
+  margin: 0px;
+  border-radius: 5px;
 }
 
-
 div.LosAngeles {
-    border: 5px solid grey;
-    text-align: center;
-    grid-column: auto;
+  border: 5px solid grey;
+  text-align: center;
+  background-color: lightblue;
+  border-radius: 5px;
 }
 
 div.Toronto {
-    border: 5px solid grey;
-    text-align: center;
-    grid-column: auto;
+  border: 5px solid grey;
+  text-align: center;
+  background-color: lightblue;
+  border-radius: 5px;
 }
 
 div.Dubai {
-    border: 5px solid grey;
-    text-align: center;
+  border: 5px solid grey;
+  text-align: center;
+  background-color: lightblue;
+  border-radius: 5px;
 }
 
 div.LasVegas {
-    border: 5px solid grey;
-    text-align: center;
+  border: 5px solid grey;
+  text-align: center;
+  background-color: lightblue;
+  border-radius: 5px;
 }
 
 div.Orlando {
-    border: 5px solid grey;
-    text-align: center;
+  border: 5px solid grey;
+  text-align: center;
+  background-color: lightblue;
+  border-radius: 5px;
 }
 
 img {
-    max-width: 100%;
-    border-radius: 100%;
+  max-width: 100%;
+  border-radius: 25%;
 }
 
 p {
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: large;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: large;
 }
 
-button {
-    border-radius: 12px;
-  font-size: 50px;
-  font-weight: 300;
-  margin-bottom: 30px;
-  background-image: linear-gradient(to left,blue 20%, purple 50%);
-  font-size: 20px;
-  text-decoration: none;
-  border-bottom: 1px dotted;
+button.Navegador {
+border-radius: 12px;
+font-size: 50px;
+font-weight: 300;
+margin-bottom: 15px;
+background-color: grey;
+font-size: 20px;
+text-decoration: none;
+border-bottom: 1px dotted;
+border: 2px solid black;
+padding: 6px 6px 6px 6px
 }
 
 a:link {
-    color: black;
-  }
-  
-  a:visited {
-    color: black;
-  }
-  a:hover {
-    color: white;
-  }
-  
-  a:active {
-    color: black;
-  }
-  
-  body {
-    margin: 0;
-  }
-  
-  .column {
-    float: left;
-    padding: 10px;
-  }
-  
-  .column.side {
-    width: 25%;
-  }
+  color: black;
+}
 
-  .grid-container {
-    display: grid;
-    grid-column-gap: 50px;
-  }
+a:visited {
+  color: black;
+}
+a:hover {
+  color: white;
+}
+
+a:active {
+  color: black;
+}
+
+body {
+  margin: 0;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.column.side {
+  width: 25%;
+}
+
+.grid-container {
+  display: grid;
+  grid-column-gap: 50px;
+}
+
+li{
+  display: inline;
+}
+
+button.Navegador {
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: black; 
+  color: white;
+}
