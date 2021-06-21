@@ -1,44 +1,45 @@
 div.Navegador {
     color: black;
-    background-image: linear-gradient(to right,blue 20%, purple 50%);
+    background-image: linear-gradient(to right,rgb(105, 197, 228) 25%, rgb(199, 231, 241) 50%);
     padding: 5px;
     border: 6px solid grey;
     margin: 0px;
     border-radius: 5px;
+    text-align: center;
 }
 
 div.LosAngeles {
     border: 5px solid grey;
     text-align: center;
-    background-color: lightblue;
+    background-image: linear-gradient(to right,rgb(105, 197, 228) 25%, rgb(199, 231, 241) 50%);
     border-radius: 5px;
 }
 
 div.Toronto {
     border: 5px solid grey;
     text-align: center;
-    background-color: lightblue;
+    background-image: linear-gradient(to right,rgb(105, 197, 228) 25%, rgb(199, 231, 241) 50%);
     border-radius: 5px;
 }
 
 div.Dubai {
     border: 5px solid grey;
     text-align: center;
-    background-color: lightblue;
+    background-image: linear-gradient(to right,rgb(105, 197, 228) 25%, rgb(199, 231, 241) 50%);
     border-radius: 5px;
 }
 
 div.LasVegas {
     border: 5px solid grey;
     text-align: center;
-    background-color: lightblue;
+    background-image: linear-gradient(to right,rgb(105, 197, 228) 25%, rgb(199, 231, 241) 50%);
     border-radius: 5px;
 }
 
 div.Orlando {
     border: 5px solid grey;
     text-align: center;
-    background-color: lightblue;
+    background-image: linear-gradient(to right,rgb(105, 197, 228) 25%, rgb(199, 231, 241) 50%);
     border-radius: 5px;
 }
 
@@ -55,19 +56,20 @@ p {
 footer {
     text-align: center;
     padding: 10px;
-    background-color: lightblue;
+    background-image: linear-gradient(to right,rgb(105, 197, 228) 25%, rgb(199, 231, 241) 50%);
     
 }
 
 button.PontoTuristico {
-    border-radius: 12px;
+    border-radius: 10px;
   font-size: 50px;
   font-weight: 300;
   margin-bottom: 15px;
-  background-image: linear-gradient(to left,blue 20%, purple 50%);
+  background-color: rgb(190, 190, 190);
   font-size: 20px;
   text-decoration: none;
   border-bottom: 1px dotted;
+  border: 2px solid black;
 }
 
 button.Navegador {
@@ -124,7 +126,7 @@ a:link {
     transition-duration: 0.4s;
   }
   
-  button:hover {
+  button.Navegador:hover {
     background-color: black; 
     color: white;
   }

@@ -1,44 +1,45 @@
 div.Navegador {
   color: black;
-  background-image: linear-gradient(to right,blue 20%, purple 50%);
+  background-image: linear-gradient(to right,rgb(105, 197, 228) 25%, rgb(199, 231, 241) 50%);
   padding: 5px;
   border: 6px solid grey;
   margin: 0px;
   border-radius: 5px;
+  text-align: center;
 }
 
 div.LosAngeles {
   border: 5px solid grey;
   text-align: center;
-  background-color: lightblue;
+  background-image: linear-gradient(to right,rgb(105, 197, 228) 25%, rgb(199, 231, 241) 50%);
   border-radius: 5px;
 }
 
 div.Toronto {
   border: 5px solid grey;
   text-align: center;
-  background-color: lightblue;
+  background-image: linear-gradient(to right,rgb(105, 197, 228) 25%, rgb(199, 231, 241) 50%);
   border-radius: 5px;
 }
 
 div.Dubai {
   border: 5px solid grey;
   text-align: center;
-  background-color: lightblue;
+  background-image: linear-gradient(to right,rgb(105, 197, 228) 25%, rgb(199, 231, 241) 50%);
   border-radius: 5px;
 }
 
 div.LasVegas {
   border: 5px solid grey;
   text-align: center;
-  background-color: lightblue;
+  background-image: linear-gradient(to right,rgb(105, 197, 228) 25%, rgb(199, 231, 241) 50%);
   border-radius: 5px;
 }
 
 div.Orlando {
   border: 5px solid grey;
   text-align: center;
-  background-color: lightblue;
+  background-image: linear-gradient(to right,rgb(105, 197, 228) 25%, rgb(199, 231, 241) 50%);
   border-radius: 5px;
 }
 
