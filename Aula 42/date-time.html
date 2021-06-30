@@ -72,6 +72,9 @@
        
        1) Crie um objeto Date para a data: Feb 20, 2012, 3:12am
 
+       R:let dataParametros = new Date(2012, 1, 20, 3, 12, 0)
+        console.log(dataParametros)
+
        2) Crie uma função obtemDiaSemana(data) para mostrar o dia da semana
        no formato: 
         "Segunda-Feira", 
@@ -82,6 +85,44 @@
         "Sábado",
         "Domingo"
 
+      R:   let hoje = new Date()
+
+        function obtemDiaSemana(data) {
+            let dia
+            switch (data.getDay()) {
+                case 0:
+                    dia = "Domingo"
+                    break 
+
+                 case 1:  
+                    dia = "Segunda"   
+                 break
+
+                case 2: 
+                 dia = "Terça"     
+                 break
+
+               case 3:
+               dia = "Quarta"
+               break
+
+              case 4: 
+              dia = "Quinta"
+              break
+
+              case 5:
+              dia = "sexta"
+              break
+
+              case 6:
+              dia = "Sabado"
+              break
+            }
+
+            return dia
+        }
+    console.log(`Dia da semana: ${obtemDiaSemana(hoje)}`)
+
        3) Crie uma função obtemUltimoDiaMes(ano, mes) que retorna o último dia do mês.
 
        Parâmetros: 
@@ -89,6 +130,14 @@
        mes -> de 0 a 11
 
        Exemplo: obtemUltimoDiaMes(2012, 1) = 29
+       
+       R:let ano = 2021,
+            mes = 1
+        function obtemUltimoDiaMes(ano, mes) {            
+            return new Date(ano, mes + 1, 0).getDate()            
+        }
+        
+        console.log(`${obtemUltimoDiaMes(ano, mes)}`)
 
        4) Escreva uma função obtemSegundos() que retorna o número de segundos
        do dia atual.
