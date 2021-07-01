@@ -131,13 +131,16 @@
 
        Exemplo: obtemUltimoDiaMes(2012, 1) = 29
        
-       R:let ano = 2021,
+       R:
+       
+       let ano = 2021,
             mes = 1
         function obtemUltimoDiaMes(ano, mes) {            
             return new Date(ano, mes + 1, 0).getDate()            
         }
         
         console.log(`${obtemUltimoDiaMes(ano, mes)}`)
+
 
        4) Escreva uma função obtemSegundos() que retorna o número de segundos
        do dia atual.
