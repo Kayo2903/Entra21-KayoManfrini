@@ -7,6 +7,12 @@ import { MembroFamilia } from "./components/MembroFamilia";
 import { Card } from "./components/Card";
 import { ParOuImpar } from "./components/ParOuImpar";
 import { Notificacao } from "./components/Notificacao";
+import { ManipulandoEventos } from "./components/ManipulandoEventos";
+import { Relogio } from "./components/Relogio"
+import { ValorAleatorio } from "./components/ValorAleatorio";
+import { ComponenteControlado } from "./components/ComponentesControlados";
+import { Calculadora } from "./components/LiftingState/Calculadora";
+import { Contador } from "./components/Contador";
 
 function App() {
   return (
@@ -36,6 +42,23 @@ function App() {
           <hr/>
           <Notificacao mensagem={["Oi"]}/>
         </Card>
+        <Card cor="#A12568" titulo="Manipulando Eventos">
+					<ManipulandoEventos />
+				</Card>
+        <Card titulo="Estado" cor="#f9cb40">
+					<Relogio />
+					<hr />
+					<ValorAleatorio />
+				</Card>	
+        <Card titulo="Componentes controlados" cor="#3B185F">
+					<ComponenteControlado />
+				</Card>
+				<Card titulo="Elevando o State">
+					<Calculadora />
+				</Card>
+				<Card titulo="State pode ser assíncrono">
+					<Contador inicial={10} />
+				</Card>
       </div>
     </div>
   );
