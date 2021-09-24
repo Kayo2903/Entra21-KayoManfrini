@@ -1,18 +1,20 @@
 import { Redirect } from "react-router-dom";
-import { useAuth } from "../../hooks/useAuth";
+import { Login } from "../../components/Login";
+import authServices from "../../services/authServices";
+import "./styles.css";
 
+export function Home() {
+  const accessToken = authServices.getAccessToken();  
 
-export function Home(props) {
-    const { accessToken } = useAuth();
-        
-    if (accessToken) {
-        return <Redirect to="/dashboard" />        
-    }
+  if (accessToken) {
+    return <Redirect to="/dashboard" />
+  }
 
-    return (
-      <>        
-        <h1>Home</h1>
-        <p>{props.text}</p>       
-      </>
-    );  
+  return (
+    <div className="container-home">        
+        <h1 className="home-title">Sistema Gerenciador de Alunos</h1>
+      <Login />                                   
+    </div>
+  );  
 }
+
